@@ -1,0 +1,28 @@
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "title": "testing-course-title",
+    "desc": "this is a test on testing description"
+}
+
+####
+
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "title": "testing-course-title"
+}
+
+####
+GET http://localhost:3000/courses
+
+####
+GET http://localhost:3000/courses/6229e764662cf7c2ddcc53bb
+
+####
+GET http://localhost:3000/courses/6229e764662cf7c2ddcc53cc
+
+####
+DELETE http://localhost:3000/courses/6229e764662cf7c2ddcc53bb
